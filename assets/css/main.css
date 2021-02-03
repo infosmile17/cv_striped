@@ -1414,7 +1414,26 @@ header>p {
 section, article {
 	margin-bottom: 3em;
 }
-
+.span {
+	padding: 10px 10px 10px 23px;
+    cursor: pointer;
+    text-align: left;
+    text-transform: uppercase;
+    font-weight: bold;
+	font-size: 15px;
+}
+ 
+.portfolio {
+clear: left;
+    color: #1a4e7b;
+    width: auto;
+    border: none!important;
+    background: none!important;
+    padding-left: 0;
+    margin-bottom: 4px;
+    margin-top: 6px;
+	
+}
 section> :last-child, section>.inner> :last-child, section:last-child, article> :last-child, article>.inner> :last-child, article:last-child {
 	margin-bottom: 0;
 }
@@ -1427,7 +1446,13 @@ section> :last-child, section>.inner> :last-child, section:last-child, article> 
 
 .image img {
 	display: block;
-	width: 100%;
+	width: 60%;
+	border-radius: 10px;
+
+}
+.box {
+	text-align: center;
+
 }
 
 .image.fit {
